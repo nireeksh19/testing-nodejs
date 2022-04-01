@@ -22,6 +22,6 @@ const server = http.createServer((req,res)=>{
         return res.end("<h1>404 ERROR PAGE</h1>")
     }
 });
-server.listen(PORT,hostname,()=>{
+server.listen(PORT,()=>{
     console.log(`Server is working`);
 });
